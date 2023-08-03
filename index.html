@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/772fad5e06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="background images/logo2.jpg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Contact</a></li>
+                    &#10006;
+                </ul>
+                <i class="gg-menu-left-alt"></i>
+            </nav>
+            <div class="header-text">
+                <p class="ani1">Frontend Designer and Data Analyst</p>
+                <h1 class="ani2">Hi, I'm<span> Rumita Gope</span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------about section-------------- -->
+
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-left">
+                    <img src="background images/rumi.jpg">
+                </div>
+                <div class="col-right">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="hi">Hi, I'm <span>Rumita Gope</span> currently persuing <span>MCA</span> from Heritage Institute of Technology, Kolkata. I completed my <span>graduation in Geography honors</span> but then I shifted to this stream as I formerly wanted to become an IT professional. I'm passionate in Frontend designing and development, Machine Learning and Data Analytics. I've been practicing frontend development by own and currently doing a course on Machine Learning from "Internshala". I've been also practicing different Python Libraries to gain knowledge in Data Analytics. Beside these, I'm also interested in UX/UI and Graphic designing as I'm a painter also. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"><b>Skills</b></p>
+                        <p class="tab-links" onclick="opentab('experiences')"><b>Experiences</b></p>
+                        <p class="tab-links" onclick="opentab('education')"><b>Education</b></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><b>Frontend</b></span><br>Designing Web/App Interfaces</li>
+                            <br>
+                            <li><span><b>Machine Learning</b></span><br>Implement ML models to train machines</li>
+                            <br>
+                            <li><span><b>Data Analyst</b></span><br>Analyse and optimise data using Python</li>
+                            <br>
+                            <li><span><b>UX/UI</b></span><br>Designing the user interface of an application or web page</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiences">
+                        <ul>
+                            <li><span><b>HTML & CSS</b></span><br>Doing self practice</li>
+                            <br>
+                            <li><span><b>Smart Commerce (2019-2021)</b></span><br>Learnt basics of Tally ERP 9, GST</li>
+                            <br>
+                            <li><span><b>Worked as a team leader </b></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><b>Higher Secondary (2019)</b></span><br>From Jadavpur Vidyapith with 81.20%</li>
+                            <br>
+                            <li><span><b>Graduation (2019-2022)</b></span><br>In Geography honors from Women's Christian College<br>CGPA:7.81</li>
+                            <br>
+                            <li><span><b>Current: Persuing MCA</b></span><br>From Heritage Institute of Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------Services---------------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                
+                <div>
+                    <img src="icons/FE2.jpg">
+                    
+                    <h2>Frontend Designing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium labore quasi aperiam obcaecati blanditiis possimus beatae, ipsa commodi modi expedita! Saepe similique culpa quia omnis! Perspiciatis magni sit pariatur aperiam!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <img src="icons/WD2.jpg">
+                    
+                    <h2>Machine Learning</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium labore quasi aperiam obcaecati blanditiis possimus beatae, ipsa commodi modi expedita! Saepe similique culpa quia omnis! Perspiciatis magni sit pariatur aperiam!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <img src="icons/DA2.jpg">
+                    
+                    <h2>Data Analysis</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium labore quasi aperiam obcaecati blanditiis possimus beatae, ipsa commodi modi expedita! Saepe similique culpa quia omnis! Perspiciatis magni sit pariatur aperiam!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <img src="icons/UIUX2.jpg">
+                    
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium labore quasi aperiam obcaecati blanditiis possimus beatae, ipsa commodi modi expedita! Saepe similique culpa quia omnis! Perspiciatis magni sit pariatur aperiam!</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+<!-- 
+    ----------portfolio-------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="icons/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos dolor ut cumque corrupti esse debitis quia ratione quod eum repudiandae repellendus impedit iure, maiores ea hic tenetur excepturi placeat!</p><br>
+                            <a href="#"><img src="icons/exlink3.png""></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="icons/work-2.png">
+                    <div class="layer">
+                        <h3> Personal Projects</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos dolor ut cumque corrupti esse debitis quia ratione quod eum repudiandae repellendus impedit iure, maiores ea hic tenetur excepturi placeat!</p><br>
+                            <a href="#"><img src="icons/exlink3.png""></a>
+                    </div>
+                </div>
+
+                  <div class="work">
+                    <img src="icons/work-3.png">
+                    <div class="layer">
+                        <h3> Bengali Chatbot using NLP</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos dolor ut cumque corrupti esse debitis quia ratione quod eum repudiandae repellendus impedit iure, maiores ea hic tenetur excepturi placeat!</p><br>
+                            <a href="#"><img src="icons/exlink3.png""></a>
+                    </div>
+                  </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ---------------------contact------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="con-left">
+                    <h2 class="sub-title">Contact Me</h2>
+                    <p><img src="icons/redgmail2.jpg">rumitagope2000@gmail.com</p>
+                    <p><img src="icons/redphone22.jpg">6291804363</p><br>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/jenny.golmes.1?mibextid=ZbWKwL"><img src="icons/redfb2.jpg"></a>
+                        <a href="https://instagram.com/rumita_gope?igshid=MzNlNGNkZWQ4Mg=="><img src="icons/redinsta2.jpg"></a>
+                        <a href="https://www.linkedin.com/in/rumita-gope-8b817a235"><img src="icons/redlinkedin2.png"></a> 
+                        <a href="https://twitter.com/Rums_25/"><img src="icons/redtwitter2.png"></a>
+                    </div>
+                    <a href="documents/Rumita_Gope_Resume.pdf" Download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="con-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="text" name="Email" placeholder="Your email" required>
+                        <textarea name="messege" rows="10" placeholder="Your messege"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; by &#9829; Rumita. </p>
+        </div>
+    </div>
+<!-- 
+    -----------JAVA SCRIPT----------
+     -->
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+                }  
+                for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");  
+            }
+            event.currentTarget.classList.add("active-link"); 
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+     </script>
+</body>
+</html>
+
